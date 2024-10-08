@@ -1,0 +1,15 @@
+x = int(input("Введите возраст:"))
+
+if x<=1:
+    print("младенец")
+
+elif x<13:
+    print("ребёнок")
+
+elif x<20:
+    print("подросток")
+
+else:
+    print("взрослый")
+
+input()
