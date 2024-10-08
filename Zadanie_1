@@ -1,0 +1,9 @@
+import math
+x=int(input("Введите x:"))
+
+a=int(input("Введите a:"))
+
+z=math.log(math.fabs(a**7)) + math.atan(x**2) + math.pi/math.sqrt(math.fabs(a+x))
+print(z)
+
+input()
